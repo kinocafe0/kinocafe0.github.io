@@ -7,3 +7,200 @@
 <a href="blog.html">Blog</a>
 <a href="works.html">Works</a>
 </nav>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>kinocafe</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Hiragino Sans", "Yu Gothic", sans-serif;
+      line-height: 1.7;
+      color: #3b312b;
+      background: #f6f1ea;
+    }
+
+    header {
+      background: linear-gradient(rgba(60, 45, 35, 0.45), rgba(60, 45, 35, 0.45)),
+                  url("https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=1400&q=80") center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 100px 20px 80px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      letter-spacing: 0.08em;
+    }
+
+    header p {
+      margin-top: 16px;
+      font-size: 1.1rem;
+    }
+
+    nav {
+      background: #7d5f4f;
+      text-align: center;
+      padding: 12px 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 14px;
+      font-weight: bold;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px 60px;
+    }
+
+    section {
+      background: #fffaf5;
+      border-radius: 16px;
+      padding: 28px;
+      margin-bottom: 24px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #6a4f42;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #f3e7da;
+      border-radius: 14px;
+      padding: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #6b625c;
+      font-size: 0.95rem;
+    }
+
+    .hours-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .hours-list li {
+      margin-bottom: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>kinocafe</h1>
+    <p>都会の中で、ほっと一息つける場所。</p>
+  </header>
+
+  <nav>
+    <a href="#concept">Concept</a>
+    <a href="#spaces">Spaces</a>
+    <a href="#menu">Menu</a>
+    <a href="#hours">Hours</a>
+    <a href="#future">Future</a>
+  </nav>
+
+  <main>
+    <section id="concept">
+      <h2>Concept</h2>
+      <p>
+        kinocafeは、都会の中で心をゆるめ、
+        ひとりの時間も、誰かと過ごす時間も大切にできるカフェをイメージした場所です。
+      </p>
+      <p>
+        静かに本を読んだり、自分の考えを整えたりできる空間と、
+        おしゃべりやボードゲームを楽しめる空間。
+        その日の気分に合わせて、過ごし方を選べるカフェを目指しています。
+      </p>
+    </section>
+
+    <section id="spaces">
+      <h2>Two Spaces</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Book Cafe Space</h3>
+          <p>
+            一人で過ごしたり、本を読んだりするための静かなスペース。
+            朝の時間や夜のひとときに、落ち着いて過ごせる場所です。
+          </p>
+        </div>
+        <div class="card">
+          <h3>Community Space</h3>
+          <p>
+            おしゃべりをしたり、ボードゲームをしたり、
+            ゆるやかにつながれるコミュニティスペース。
+            気軽に集まれる、あたたかな空気を大切にします。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu">
+      <h2>Menu</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Food</h3>
+          <p>
+            優しい味の定食やセットメニューを中心に、
+            毎日食べてもほっとできるようなごはんを考えています。
+          </p>
+        </div>
+        <div class="card">
+          <h3>Tea</h3>
+          <p>
+            お茶・紅茶を豊富にそろえ、
+            気分や季節に合わせて選べる楽しさを大切にします。
+            コーヒーは最低限にして、静かに寄り添う飲み物を中心に。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="hours">
+      <h2>Opening Hours</h2>
+      <ul class="hours-list">
+        <li>月・火・金・土・日　6:30–8:30 / 11:30–14:00 / 17:00–22:30</li>
+        <li>水・木　定休</li>
+      </ul>
+      <p>
+        朝ごはんの時間、昼の定食の時間、夜のくつろぎの時間。
+        一日の中で、何度でも立ち寄りたくなるリズムをイメージしています。
+      </p>
+    </section>
+
+    <section id="future">
+      <h2>About This Site</h2>
+      <p>
+        このサイトは、将来ほんとうに作りたい店舗を思い描きながら育てていく、
+        kinocafeのはじまりのページです。
+      </p>
+      <p>
+        これから、ブログ、作品ページ、イベント案内、ちいさな遊びのページなどを
+        少しずつ追加していく予定です。
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© kinocafe</p>
+  </footer>
+</body>
+</html>
